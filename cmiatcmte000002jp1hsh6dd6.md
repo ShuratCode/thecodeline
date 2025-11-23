@@ -10,7 +10,7 @@ tags: ai, software-engineering, engineering-strategy, expert-generalist
 
 ## אמ;לק
 
-הדיון הישן על ״התמחות עומק״ (Specialization) מול ״ידע רחב״ (Generalization) מת. מדוע? כי כלי AI ג׳נרטיביים הפכו למומחים-על-פי-דרישה בכל נישה טכנולוגית כמעט. במציאות החדשה הזו, הערך של מהנדס בכיר נודד מיכולת אגירת הידע ליכולת השיפוט והאינטגרציה. אנו חוזרים למודל ה-[**Expert Generalist**](https://martinfowler.com/articles/expert-generalist.html) של מרטין פאולר, ומראים כיצד באמצעות דוגמה מעשית, תפקידנו הופלך להיות המבוגר האחראי שמנהל את המומחה המלאכותי באמצעות הקשר, ענווה ואמנות השאלה.
+הדיון הישן על ״התמחות עומק״ (Specialization) מול ״ידע רחב״ (Generalization) מת. מדוע? כי כלי AI ג׳נרטיביים הפכו למומחים-על-פי-דרישה בכל נישה טכנולוגית כמעט. במציאות החדשה הזו, הערך של סניור נודד מיכולת אגירת הידע ליכולת השיפוט והאינטגרציה. אנו חוזרים למודל ה-[**Expert Generalist**](https://martinfowler.com/articles/expert-generalist.html) של מרטין פאולר, ומראים כיצד באמצעות דוגמה מעשית, תפקידנו הופך להיות המבוגר האחראי שמנהל את המומחה המלאכותי באמצעות הקשר, ענווה ואמנות השאלה.
 
 ## הקדמה: שבירת הדיכוטומיה
 
@@ -63,7 +63,7 @@ tags: ai, software-engineering, engineering-strategy, expert-generalist
 
 ה-AI תמיד יציע לשכתב קוד ישן לחדש. ה-Generalist מבין שיש היסטוריה.
 
-> Effective generalists react to that by fist understanding why this odd behavior is the way it is… Humility encourages the Expert Generalist to not leap into challenging things until they are sure they understand the full context
+> Effective generalists react to that by first understanding why this odd behavior is the way it is… Humility encourages the Expert Generalist to not leap into challenging things until they are sure they understand the full context
 
 היכולת לעצור ולשאול ״למה זה נבנה ככה?״ לפני שמפעילים את ה״מומחה״ לשינוי גורף, היא קריטית למניעת רגרסיות והבנת אילוצים עסקיים
 
