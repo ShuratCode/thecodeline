@@ -86,7 +86,7 @@ git worktree rm <worktree directory>
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768147375438/bc651138-6a78-4165-ae5a-64cc3eedc5f0.png align="center")
 
-# לב 3: המוח (Cursor Rules & Personas)
+# שלב 3: המוח (Cursor Rules & Personas)
 
 זה החלק שהרבה ממכם ביקשתם לראות. ה״קסם״ של Cursor הוא לא במודל, אלא ב-**Context** וב-**Persona** שאנחנו מלבישים עליו.
 
