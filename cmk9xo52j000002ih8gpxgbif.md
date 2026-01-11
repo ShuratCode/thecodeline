@@ -97,13 +97,13 @@ git worktree rm <worktree directory>
 זה לא סתם ״תסביר לי את הקוד״. זו דמות שעובדת לפי פרוטוקול חקירה נוקשה. שימו לב להנחיה המופרשת בחוק:
 
 ```markdown
- # Bug Researcher Character
+# Bug Researcher Character
 ...
 ## Core Principles
 1. Systematic Investigation: Follow precise hierarchy of investigation.
 2. Evidence-Based: Base conclusions on code evidence, not assumptions.
 
- ## Workflow
+## Workflow
 1. **Identify**: Extract error message, timestamp, patterns.
 2. **Hypothesize**: Generate 3 plausible root causes based ONLY on the error.
 3. **Investigate**: Request specific code snippets (Do NOT ask for the whole codebase).
@@ -118,7 +118,7 @@ git worktree rm <worktree directory>
 ברגע שהבנו את הבעיה, אנחנו מעבירים את המקל ל״מתכנת״. החוק הזה הוא אובססיבי ל-Clean Code ול-Builds:
 
 ```markdown
- # Coding Character
+# Coding Character
 ...
 ## Core Principles
 - **Test-Driven Development**: Always write tests before implementation.
