@@ -161,7 +161,7 @@ git worktree rm <worktree directory>
 עברתי לטרמינל. עברתי ל-worktree שיצרתי `cd ../worktrees/fix-bridge`), והפעלתי את ה-Agent של Cursor בטרמינל:
 
 ```bash
-cursor-agent --promp "<prompt from previous step"
+cursor-agent --promp "<prompt from previous step>"
 ```
 
 ה-Agent בטרמינל (שהוא ישות נפרדת מה-IDE הראשי) לקח את הפרומפט, קרא את הקבצים הרלוונטיים, כתב את הטסט, ביצע את התיקון, הריץ קומפילציה ודיווח על הצלחה.
