@@ -10,13 +10,13 @@ tags: cursor-ide, ai-agent, git-worktree
 
 ---
 
-## אמ;לק
+# אמ;לק
 
 ביקשתם דוגמאות טכניות? קיבלתם. בפוסט הזה אני חושף את ה״מנוע״ שמתחת למכסה המנוע: מבנה התיקיות שלי, פקודות ה-Git Worktree המדויקות, קבצי ה-Cursor Rule (.mdc) שכתבתי, ואיך דיבאגתי ותיקנתי באג קריטי בפרודקשיין בעזרת שרשרת של סוכני AI.
 
 ---
 
-## הקדמה: תראו לי את הקוד
+# הקדמה: תראו לי את הקוד
 
 [בפוסט הקודם](https://www.thecodeline.org/mkhvs-lkvntkst), ״מכאוס לקונטקסט״, דיברתי על הפילוסופיה של ניהול עומס קוגניטיבי בעזרת AI. התגובות היו מצוינות, אבל תגובה אחת בלינקדאין תפסה אותי:
 
@@ -25,7 +25,7 @@ tags: cursor-ide, ai-agent, git-worktree
 
 הוא צודק. תיאוריה זה נחמד, אבל בואו נלכלך את הידיים. בפוסט הזה אני אפתח את ה-IDE ואת הטרמינל ואראה לכם צעד-אחר-צעד איך נראה יום בחיי
 
-## שלב 1: זירת המשחקים (The Setup)
+# שלב 1: זירת המשחקים (The Setup)
 
 כדי להבין את ה-Workflow, צריך להבין את הטופולוגיה הפיזית של הדיסק שלי. אין לי תיקיית פרויקט אחת. יש לי “Workspace” שמאגד את כל העולם שלי:
 
@@ -43,7 +43,7 @@ drwxr-xr-x  second-repo          # מונולית שני - Production Branch
 
 כשאני צריך לתקן באג או לפתח פיצ׳ר, אני לא עושה `git checkout` ומלכלך את הסביבה הזו. אני יוצר עותק זמני וכירורגי.
 
-## שלב 2: הניתוח (Git Worktree)
+# שלב 2: הניתוח (Git Worktree)
 
 במקום לעשות `git clone` שלוקח נצח ותופס ג׳יגות, אני משתמש ב-`git worktree`. זו פקודה שיוצרת תיקייה חדשה שמקושרת לאותו בסיס נתונים של גיט, אבל יושבת על Branch נפרד.
 
@@ -86,24 +86,24 @@ git worktree rm <worktree directory>
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768147375438/bc651138-6a78-4165-ae5a-64cc3eedc5f0.png align="center")
 
-## שלב 3: המוח (Cursor Rules & Personas)
+# שלב 3: המוח (Cursor Rules & Personas)
 
 זה החלק שהרבה ממכם ביקשתם לראות. ה״קסם״ של Cursor הוא לא במודל, אלא ב-**Context** וב-**Persona** שאנחנו מלבישים עליו.
 
 בתיקיית `.cursor/rules` שבתיקייה הראשית - איפה שכל ה repos יושבים - יושבים קבצי ה-`.mdc`. כל קובץ הוא איש צוות וירטואלי עם התמחות ספציפית. הנה הצצה לשני הקריטיים שבהם:
 
-### החוקר (The Researcher)
+## החוקר (The Researcher)
 
 זה לא סתם ״תסביר לי את הקוד״. זו דמות שעובדת לפי פרוטוקול חקירה נוקשה. שימו לב להנחיה המופרשת בחוק:
 
 ```markdown
-# Bug Researcher Character
+ Bug Researcher Character
 ...
-## Core Principles
+Core Principles
 1. Systematic Investigation: Follow precise hierarchy of investigation.
 2. Evidence-Based: Base conclusions on code evidence, not assumptions.
 
-## Workflow
+ Workflow
 1. **Identify**: Extract error message, timestamp, patterns.
 2. **Hypothesize**: Generate 3 plausible root causes based ONLY on the error.
 3. **Investigate**: Request specific code snippets (Do NOT ask for the whole codebase).
@@ -113,19 +113,19 @@ git worktree rm <worktree directory>
 
 (הקובץ המלא ארוך יותר ומכיל תבניות תשובה מדויקות)
 
-### המתכנת (The Coder)
+## המתכנת (The Coder)
 
 ברגע שהבנו את הבעיה, אנחנו מעבירים את המקל ל״מתכנת״. החוק הזה הוא אובססיבי ל-Clean Code ול-Builds:
 
 ```markdown
-# Coding Character
+ Coding Character
 ...
-## Core Principles
+ Core Principles
 - **Test-Driven Development**: Always write tests before implementation.
 - **No Comments**: Code must be self-documenting.
 - **Build Must Pass**: Never commit if build fails locally.
 
-## Workflow
+ Workflow
 1. **Analyze Requirements**: Read the Jira ticket or Prompt.
 2. **Audit Existing Tests**: Check coverage.
 3. **Generate Test Suite**: Happy path, Edge cases.
