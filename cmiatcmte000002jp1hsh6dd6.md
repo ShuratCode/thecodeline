@@ -1,6 +1,6 @@
 ---
 title: "הפרדוקס החדש"
-datePublished: Sat Nov 22 2025 21:40:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-22T21:40:52.226Z
 cuid: cmiatcmte000002jp1hsh6dd6
 slug: expert-generalist
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763843683550/23c663b9-87bc-4cd7-8d18-3aab3e6e18c5.png
