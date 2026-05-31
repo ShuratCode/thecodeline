@@ -2,7 +2,7 @@
 title: "מביצות נתונים למכרות זהב"
 seoTitle: "נתונים למכרות זהב: המהפכה הגדולה"
 seoDescription: "ארכיטקטורת מדליון מארגנת נתונים ב-Data Lake לשלוש שכבות, מאפשרת סקלאביליות ומיטוב למודלי AI. פותרת בעיית ה-ETL הקלאסי"
-datePublished: Sun Feb 15 2026 11:27:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-15T11:27:38.104Z
 cuid: cmlnnveyf001102k2grq5d43g
 slug: from-data-swamp-to-gold-mine
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1771154494713/20f7b6ca-6c74-4e60-931b-05af571af6ff.png
