@@ -2,7 +2,7 @@
 title: "מכאוס לקונטקסט: המדריך הטכני"
 seoTitle: "מכאוס לקונטקסט: מדריך טכני קצר"
 seoDescription: "מדריך טכני לניהול קוד מתקדם עם Git Worktree ו-AI, כולל דוגמאות מעשיות לשיפור תהליכי עבודה ותיקון באגים"
-datePublished: Sun Jan 11 2026 16:13:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-11T16:13:26.060Z
 cuid: cmk9xo52j000002ih8gpxgbif
 slug: cursor-git-worktree-workflow
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768147853504/a679a245-ae92-4e3f-9927-8602d797a29c.png
