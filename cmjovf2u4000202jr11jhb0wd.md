@@ -1,6 +1,6 @@
 ---
 title: "מכאוס לקונטקסט"
-datePublished: Sat Dec 27 2025 22:27:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-12-27T22:27:14.332Z
 cuid: cmjovf2u4000202jr11jhb0wd
 slug: mkhvs-lkvntkst
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766874342803/18b482ff-05c9-4d1d-a240-3d78df37774a.png
