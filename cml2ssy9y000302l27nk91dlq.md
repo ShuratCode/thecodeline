@@ -2,7 +2,7 @@
 title: "BFF (Backend for Frontend)"
 seoTitle: "ארכיטקטורת BFF: המדריך המעמיק לאבטחה וביצועים ב-Microservices "
 seoDescription: "למה BFF הוא דפוס אבטחה קריטי? למדו על Confidential Clients, מניעת Over-fetching ואיך Next.js מיישם BFF מובנה. המדריך המלא לארכיטקטורת קצה ב-The Code Line."
-datePublished: Sat Jan 31 2026 21:02:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-31T21:02:31.558Z
 cuid: cml2ssy9y000302l27nk91dlq
 slug: bff-backend-for-frontend
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769893184971/d28d07f7-1776-4d85-b8f4-189d9dc0d872.png
